@@ -6,6 +6,10 @@ public class animal {
     private String size;
     private double weight;
 
+    public animal() {
+
+    }
+
     public animal(String type, String size, double weight) {
         this.type = type;
         this.size = size;
@@ -14,7 +18,7 @@ public class animal {
     }
 
     public String toString() {
-        return "Animal " + " type = " + type + '/' + "size= " + size + '/' + "wight= " + weight;
+        return "Animal  " + " type = " + type + '/' + "size= " + size + '/' + "wight= " + weight;
     }
 
 }
